@@ -1,0 +1,78 @@
+body{
+    font-family: ADLaM Display;
+    font-size: 22px;
+    margin: 0;
+}
+
+header{
+    text-align: center;
+    height: 90px;
+    background-color:rgb(255, 255, 255);
+    position: fixed;
+    width: 100%;
+}
+nav{
+    margin-top: 30px;
+}
+nav a{
+    text-decoration: none;
+    color: rgba(95, 85, 67, 0.664);
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 40px 40px 40px 40px;
+    background-color: rgb(216, 202, 195);
+    border: 2px rgb(165, 151, 131)solid;
+}
+nav a:hover{
+    color: rgba(150, 106, 56, 0.726);
+    box-shadow: 5px 0px 5px 0px;
+    transition: 0.2s;
+    padding: 11px 16px;
+}
+body{
+    background-color:rgb(124, 118, 109)
+}
+
+.deskripsihome{
+    width: 40%;
+    margin: 50px;
+    font-size: 20px;
+    margin-left: 50px;
+    & h1{
+    color: rgba(255, 198, 198, 0.534);
+    }
+    & h3{
+        color: rgb(241, 226, 208);
+    }
+    & p{
+        color: rgb(255, 255, 255);
+    }
+}
+.home{
+    background-image: url(Vegannbertcheese.png);
+    height: 600px;
+    background-size: cover;
+    padding-top: 75px;
+}
+h1{
+    color: rgb(255, 255, 255);
+}
+h3{
+    color: aliceblue;
+}
+p{
+    color: rgb(255, 255, 255);
+}
+.deskripsihome a{
+    text-decoration: none;
+    color:rgb(231, 216, 208);
+    background-color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 3px 3px;
+    border: 2px rgb(212, 198, 170) solid;
+}
+.deskripsihome a:hover{
+    box-shadow: 5px 5px 4px 4px;
+    padding: 11px 20px;
+}
