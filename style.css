@@ -7,7 +7,7 @@ body{
 header{
     text-align: center;
     height: 90px;
-    background-color:rgb(255, 255, 255);
+    background-color:rgb(241, 218, 197);
     position: fixed;
     width: 100%;
 }
@@ -16,12 +16,12 @@ nav{
 }
 nav a{
     text-decoration: none;
-    color: rgba(95, 85, 67, 0.664);
+    color: rgb(255, 255, 255);
     padding: 10px 15px;
     font-size: 16px;
     border-radius: 40px 40px 40px 40px;
-    background-color: rgb(216, 202, 195);
-    border: 2px rgb(165, 151, 131)solid;
+    background-color: rgb(235, 192, 152);
+    border: 2px rgb(202, 172, 129)solid;
 }
 nav a:hover{
     color: rgba(150, 106, 56, 0.726);
@@ -29,7 +29,7 @@ nav a:hover{
     transition: 0.2s;
     padding: 11px 16px;
 }
-body{
+.body{
     background-color:rgb(124, 118, 109)
 }
 
@@ -39,10 +39,10 @@ body{
     font-size: 20px;
     margin-left: 50px;
     & h1{
-    color: rgba(255, 198, 198, 0.534);
+    color: rgb(255, 255, 255);
     }
     & h3{
-        color: rgb(241, 226, 208);
+        color: rgb(255, 255, 255);
     }
     & p{
         color: rgb(255, 255, 255);
@@ -77,20 +77,47 @@ p{
     padding: 11px 20px;
 
 }
-about{
+.about{
     height: 800px;
-    background-color: rgb(124, 107, 90);
+    background-color: rgb(245, 223, 198);
 }
 .containerabout{
     font-family: 'Albert Sans';
-    background-color: rgb(170, 142, 119);
+    background-color: rgb(211, 178, 140);
     width: 50%;
     margin-left: 25%;
     text-align: center;
-    height: 100%;
+    height: 80%;
     padding: 50px 20px;
 
 }
 .containerabout img{
     height: 200px;
+}
+.carahowto{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(209, 175, 113);
+    & h2{
+        color: rgb(99, 70, 43);
+    }
+    & h3{
+        color: rgb(126, 95, 66);
+    }
+    & b{
+        color: rgb(177, 135, 95);
+    }
+    & p{
+        color: rgb(255, 255, 255);
+    }
+    background-color: rgb(231, 211, 168);
+}
+.carahowto a{
+    text-decoration: none;
+    color:rgb(231, 216, 208);
+    background-color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 3px 3px;
+    border: 2px rgb(212, 198, 170) solid;
+
 }
